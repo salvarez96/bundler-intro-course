@@ -7,5 +7,3 @@ ReactDOM.render(
     message='Platzi ESBuild Example'
   />
 , document.querySelector('#root'))
-
-
