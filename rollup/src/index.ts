@@ -26,8 +26,9 @@ const main = async () => {
     
     newHeader.appendChild(newImage);
     $body?.append(newHeader, newItem);
-  } catch (e) {
-    throw new Error('Error')
+    
+  } catch (e: any) {
+    throw new Error(e)
   }
 }
 
